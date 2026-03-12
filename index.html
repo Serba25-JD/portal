@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portal UNPAB </title>
+    <link rel="icon" href="assets/image/logo_unpab_4x.png" sizes="769x775">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        :root {
+            --yellow: #fed900;
+            --black: #0d0a0a;
+            --white: #fefefe;
+            --blue: #00a2e9;
+        }
+        .lato {
+            font-family: "Lato", sans-serif;
+        }
+        .montserrat {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="text-[var(--black)] lato w-full min-h-screen bg-[var(--yellow)] flex flex-col items-center justify-center gap-2 p-5">
+    <header class="flex flex-col items-center text-center gap-2">
+        <img src="assets/image/logo_unpab_4x.png" alt="logo-unpab" width="769" height="775" loading="lazy" class="w-[100px] h-auto mb-5"/>
+        <h1 class="montserrat font-medium text-base"> Selamat Datang Di Portal Resmi Mahasiswa/i </h1>
+        <h2 class="montserrat font-bold text-lg"> Universitas Pembangunan Panca Budi </h2>
+    </header>
+    <main>
+        <section class="flex flex-col items-center justify-center gap-5 w-2xs text-center mt-5 mb-5">
+            <form action="./home" method="GET" class="flex flex-col gap-2 p-4 bg-[var(--white)] shadow-lg border-1 border-[var(--blue)] rounded-md items-start w-full">
+                <label for="npm" class="montserrat font-medium text-sm"> NPM: </label>
+                <input type="text" name="npm" id="npm" minlength="1" maxlength="15" class="border-2 border-[var(--blue)] rounded-md pl-2 text-base font-semibold py-1 p-2 w-full focus:border-[var(--yellow)] focus:outline-none valid:border-[var(--black)] invalid:border-red-500">
+                <label for="password" class="montserrat font-medium text-sm"> Password: </label>
+                <input type="text" name="password" id="password" minlength="1" maxlength="10" class="border-2 border-[var(--blue)] rounded-md pl-2 text-base font-semibold py-1 p-2 w-full focus:border-[var(--yellow)] focus:outline-none valid:border-[var(--black)] invalid:border-red-500">
+                <div class="flex gap-5 justify-between w-full items-center mt-2 mb-2">
+                    <div class="flex-1 flex items-center gap-2">
+                        <input type="checkbox" checked="checked">
+                        <label for="remember" class="font-medium text-sm"> Ingatkan saya </label>
+                    </div>
+                    <a href="#" class="flex-none font-medium text-sm"> Lupa password? </a>
+                </div>
+                <button type="submit" class="border-2 border-[var(--blue)] rounded-md pl-2 text-base font-semibold py-1 p-2 w-full cursor-pointer bg-[var(--blue)] text-[var(--white)]"> Login </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="font-bold text-base p-2 text-center"> Biro Pengelola Sistem Informasi - 2009 </p>
+    </footer>
+    
+</body>
+</html>
