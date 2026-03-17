@@ -1,0 +1,1181 @@
+{
+    "Rekayasa Perangkat Lunak": [
+        {
+            "pertemuan": 1,
+            "metode": "Online",
+            "rencana": "09-03-2026",
+            "terlaksana": "09-03-2026",
+            "tema": "Kontrak perkuliahan, perkenalan silabus materi, Materi Pengenalan RPL",
+            "pokok_bahasan": "Kontrak perkuliahan, perkenalan silabus materi, Materi Pengenalan RPL",
+            "bahan_ajar": {
+                "status": true,
+                "link": "https://dosen.pancabudi.ac.id/uploads/bahanrps/1772599038_Pertemuan_1__Pengenalan_RPL.pdf"
+            }
+        },
+        {
+            "pertemuan": 2,
+            "metode": "Tatap Muka",
+            "rencana": "16-03-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 3,
+            "metode": "Tatap Muka",
+            "rencana": "30-03-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 4,
+            "metode": "Tatap Muka",
+            "rencana": "06-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 5,
+            "metode": "Tatap Muka",
+            "rencana": "13-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 6,
+            "metode": "Tatap Muka",
+            "rencana": "20-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 7,
+            "metode": "Tatap Muka",
+            "rencana": "27-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 8,
+            "metode": "Tatap Muka",
+            "rencana": "04-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 9,
+            "metode": "Tatap Muka",
+            "rencana": "11-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 10,
+            "metode": "Tatap Muka",
+            "rencana": "18-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 11,
+            "metode": "Tatap Muka",
+            "rencana": "25-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 12,
+            "metode": "Tatap Muka",
+            "rencana": "08-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 13,
+            "metode": "Tatap Muka",
+            "rencana": "15-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 14,
+            "metode": "Tatap Muka",
+            "rencana": "22-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 15,
+            "metode": "Tatap Muka",
+            "rencana": "29-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 16,
+            "metode": "Tatap Muka",
+            "rencana": "06-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        }
+    ],
+    "Ekonomi Kreatif": [
+        {
+            "pertemuan": 1,
+            "metode": "Online",
+            "rencana": "10-03-2026",
+            "terlaksana": "10-03-2026",
+            "tema": "Definisi dan ruang lingkup ekonomi kreatif",
+            "pokok_bahasan": "Definisi dan ruang lingkup ekonomi kreatif",
+            "bahan_ajar": {
+                "status": true,
+                "link": "https://dosen.pancabudi.ac.id/uploads/bahanrps/1772671277_Pert_1_Creative_Economy.pdf"
+            }
+        },
+        {
+            "pertemuan": 2,
+            "metode": "Tatap Muka",
+            "rencana": "17-03-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 3,
+            "metode": "Online",
+            "rencana": "31-03-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 4,
+            "metode": "Tatap Muka",
+            "rencana": "07-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 5,
+            "metode": "Tatap Muka",
+            "rencana": "14-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 6,
+            "metode": "Online",
+            "rencana": "21-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 7,
+            "metode": "Tatap Muka",
+            "rencana": "28-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 8,
+            "metode": "Online",
+            "rencana": "05-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 9,
+            "metode": "Tatap Muka",
+            "rencana": "12-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 10,
+            "metode": "Online",
+            "rencana": "19-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 11,
+            "metode": "Tatap Muka",
+            "rencana": "26-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 12,
+            "metode": "Online",
+            "rencana": "02-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 13,
+            "metode": "Online",
+            "rencana": "09-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 14,
+            "metode": "Tatap Muka",
+            "rencana": "23-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 15,
+            "metode": "Tatap Muka",
+            "rencana": "30-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 16,
+            "metode": "Online",
+            "rencana": "07-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        }
+    ],
+    "Prinsip Animasi": [
+        {
+            "pertemuan": 1,
+            "metode": "Online",
+            "rencana": "11-03-2026",
+            "terlaksana": "11-03-2026",
+            "tema": "Kontrak kuliah, tema tugas, ujian, dan system penilaian serta pengenalan Animasi 2D dan pengenalan software yang digunakan.",
+            "pokok_bahasan": "Kontrak kuliah, tema tugas, ujian, dan system penilaian serta pengenalan Animasi 2D dan pengenalan software yang digunakan.",
+            "bahan_ajar": {
+                "status": true,
+                "link": "https://dosen.pancabudi.ac.id/uploads/bahanrps/1772953790_Pertemuan_1_-_Kontrak_Kuliah.pdf"
+            }
+        },
+        {
+            "pertemuan": 2,
+            "metode": "Tatap Muka",
+            "rencana": "01-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 3,
+            "metode": "Tatap Muka",
+            "rencana": "08-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 4,
+            "metode": "Tatap Muka",
+            "rencana": "15-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 5,
+            "metode": "Tatap Muka",
+            "rencana": "22-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 6,
+            "metode": "Tatap Muka",
+            "rencana": "29-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 7,
+            "metode": "Tatap Muka",
+            "rencana": "06-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 8,
+            "metode": "Tatap Muka",
+            "rencana": "13-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 9,
+            "metode": "Tatap Muka",
+            "rencana": "20-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 10,
+            "metode": "Tatap Muka",
+            "rencana": "03-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 11,
+            "metode": "Tatap Muka",
+            "rencana": "10-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 12,
+            "metode": "Tatap Muka",
+            "rencana": "17-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 13,
+            "metode": "Tatap Muka",
+            "rencana": "24-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 14,
+            "metode": "Tatap Muka",
+            "rencana": "01-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 15,
+            "metode": "Tatap Muka",
+            "rencana": "08-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 16,
+            "metode": "Tatap Muka",
+            "rencana": "15-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        }
+    ],
+    "Interaksi Manusia dan Komputer": [
+        {
+            "pertemuan": 1,
+            "metode": "Online",
+            "rencana": "12-03-2026",
+            "terlaksana": "12-03-2026",
+            "tema": "Pengantar IMK, definisi, ruang lingkup",
+            "pokok_bahasan": "Pengantar IMK, definisi, ruang lingkup",
+            "bahan_ajar": {
+                "status": true,
+                "link": "https://dosen.pancabudi.ac.id/uploads/bahanrps/1772595280_Pertemuan1_-_Pengantar_Interaksi_Manusia_dan_Komputer_.pdf"
+            }
+        },
+        {
+            "pertemuan": 2,
+            "metode": "Tatap Muka",
+            "rencana": "26-03-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 3,
+            "metode": "Tatap Muka",
+            "rencana": "02-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 4,
+            "metode": "Tatap Muka",
+            "rencana": "09-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 5,
+            "metode": "Tatap Muka",
+            "rencana": "16-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 6,
+            "metode": "Tatap Muka",
+            "rencana": "23-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 7,
+            "metode": "Tatap Muka",
+            "rencana": "30-04-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 8,
+            "metode": "Tatap Muka",
+            "rencana": "07-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 9,
+            "metode": "Tatap Muka",
+            "rencana": "21-05-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 10,
+            "metode": "Tatap Muka",
+            "rencana": "04-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 11,
+            "metode": "Tatap Muka",
+            "rencana": "11-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 12,
+            "metode": "Tatap Muka",
+            "rencana": "18-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 13,
+            "metode": "Tatap Muka",
+            "rencana": "25-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 14,
+            "metode": "Tatap Muka",
+            "rencana": "02-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 15,
+            "metode": "Tatap Muka",
+            "rencana": "09-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 16,
+            "metode": "Tatap Muka",
+            "rencana": "16-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        }
+    ],
+    "Metafisika Ketuhanan": [
+        {
+            "pertemuan": 1,
+            "metode": "Online",
+            "rencana": "05-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 2,
+            "metode": "Online",
+            "rencana": "05-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 3,
+            "metode": "Online",
+            "rencana": "12-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 4,
+            "metode": "Online",
+            "rencana": "12-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 5,
+            "metode": "Online",
+            "rencana": "19-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 6,
+            "metode": "Online",
+            "rencana": "19-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 7,
+            "metode": "Online",
+            "rencana": "26-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 8,
+            "metode": "Online",
+            "rencana": "26-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 9,
+            "metode": "Online",
+            "rencana": "03-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 10,
+            "metode": "Online",
+            "rencana": "03-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 11,
+            "metode": "Online",
+            "rencana": "10-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 12,
+            "metode": "Online",
+            "rencana": "10-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 13,
+            "metode": "Online",
+            "rencana": "17-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 14,
+            "metode": "Online",
+            "rencana": "17-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 15,
+            "metode": "Online",
+            "rencana": "24-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 16,
+            "metode": "Online",
+            "rencana": "24-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        }
+    ],
+    "Pengantar Bisnis dan Inovasi": [
+        {
+            "pertemuan": 1,
+            "metode": "Online",
+            "rencana": "06-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 2,
+            "metode": "Online",
+            "rencana": "06-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 3,
+            "metode": "Online",
+            "rencana": "13-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 4,
+            "metode": "Online",
+            "rencana": "13-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 5,
+            "metode": "Online",
+            "rencana": "20-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 6,
+            "metode": "Online",
+            "rencana": "20-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 7,
+            "metode": "Online",
+            "rencana": "27-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 8,
+            "metode": "Online",
+            "rencana": "27-06-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 9,
+            "metode": "Online",
+            "rencana": "04-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 10,
+            "metode": "Online",
+            "rencana": "04-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 11,
+            "metode": "Online",
+            "rencana": "11-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 12,
+            "metode": "Online",
+            "rencana": "11-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 13,
+            "metode": "Online",
+            "rencana": "18-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 14,
+            "metode": "Online",
+            "rencana": "18-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 15,
+            "metode": "Online",
+            "rencana": "25-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        },
+        {
+            "pertemuan": 16,
+            "metode": "Online",
+            "rencana": "25-07-2026",
+            "terlaksana": "-",
+            "tema": "-",
+            "pokok_bahasan": "-",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        }
+    ],
+    "Aplikasi Sosial Media" : [
+        {
+            "pertemuan": "",
+            "metode": "",
+            "rencana": "",
+            "terlaksana": "",
+            "tema": "",
+            "pokok_bahasan": "",
+            "bahan_ajar": {
+                "status": false,
+                "link": ""
+            }
+        }
+    ]
+
+}

@@ -30,7 +30,7 @@
     </header>
     <main>
         <section class="flex flex-col items-center justify-center gap-5 w-2xs text-center mt-5 mb-5">
-            <form action="./home" method="GET" class="flex flex-col gap-2 p-4 bg-[var(--white)] shadow-lg border-1 border-[var(--blue)] rounded-md items-start w-full">
+            <div class="flex flex-col gap-2 p-4 bg-[var(--white)] shadow-lg border-1 border-[var(--blue)] rounded-md items-start w-full">
                 <label for="npm" class="montserrat font-medium text-sm"> NPM: </label>
                 <input type="text" name="npm" id="npm" minlength="1" maxlength="15" class="border-2 border-[var(--blue)] rounded-md pl-2 text-base font-semibold py-1 p-2 w-full focus:border-[var(--yellow)] focus:outline-none valid:border-[var(--black)] invalid:border-red-500">
                 <label for="password" class="montserrat font-medium text-sm"> Password: </label>
@@ -42,13 +42,13 @@
                     </div>
                     <a href="#" class="flex-none font-medium text-sm"> Lupa password? </a>
                 </div>
-                <button type="submit" class="border-2 border-[var(--blue)] rounded-md pl-2 text-base font-semibold py-1 p-2 w-full cursor-pointer bg-[var(--blue)] text-[var(--white)]"> Login </button>
-            </form>
+                <button type="submit" class="border-2 border-[var(--blue)] rounded-md pl-2 text-base font-semibold py-1 p-2 w-full cursor-pointer bg-[var(--blue)] text-[var(--white)]" id="login"> Login </button>
+            </div>
         </section>
     </main>
     <footer>
         <p class="font-bold text-base p-2 text-center"> Biro Pengelola Sistem Informasi - 2009 </p>
     </footer>
-    
+<script src="assets/js/script.js" defer></script>
 </body>
 </html>
