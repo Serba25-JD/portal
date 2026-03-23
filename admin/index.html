@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portal UNPAB - Admin </title>
+    <link rel="icon" href="../assets/image/logo_unpab_4x.png" sizes="769x775">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        :root {
+            --yellow: #fed900;
+            --black: #0d0a0a;
+            --white: #fefefe;
+            --blue: #00a2e9;
+        }
+        .lato {
+            font-family: "Lato", sans-serif;
+        }
+        .montserrat {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <meta name="title" content="Portal UNPAB - Admin">
+    <meta name="author" content="Jeremi Salvatores Sihotang">
+    <link rel="canonical" href="https://portofolio-junior-programmer.netlify.app/">
+</head>
+<body class="bg-[var(--white)] lato w-full min-h-screen">
+    <header class="flex gap-10 px-10 py-5 bg-[var(--blue)] items-center justify-between max-h-fit z-99 fixed w-full top-0 left-0 right-0">
+        <div>
+            <img src="../assets/image/logo_unpab_4x.png" alt="logo-unpab" width="769" height="775" loading="lazy" class="w-[50px] h-auto" />
+        </div>
+        <h1 class="montserrat font-bold text-base text-[var(--yellow)]"> Universitas Pembangunan Panca Budi </h1>
+    </header>
+    <main class="flex gap-10 px-10 py-5 items-center mt-20">
+        <section class="flex flex-col gap-2 py-5 px-5 fixed w-3xs top-25 bottom-0 left-10 bg-[var(--blue)] rounded-t-md h-auto">
+            <a href="./" class="flex gap-2 bg-[var(--white)] p-4 rounded-md border-t-2 border-[var(--yellow)] items-center justify-between">
+                <i data-feather="home"></i>
+                <h2 class="montserrat font-bold text-base"> Dashboard </h2>
+            </a>
+            <div class="flex flex-col gap-2 bg-[var(--white)] p-2 rounded-md h-screen">
+                <div class="flex gap-2 items-center justify-between cursor-pointer border-b-2 border-[var(--yellow)] rounded-md p-2" id="btn-students">
+                    <i data-feather="users"></i>
+                    <h3 class="font-medium text-sm"> Mahasiswa/i </h3>
+                </div>
+                <div class="flex gap-2 items-center justify-between cursor-pointer border-b-2 border-[var(--yellow)] rounded-md p-2" id="btn-students-krs">
+                    <i data-feather="book-open"></i>
+                    <h3 class="font-medium text-sm"> Kartu Rencana Studi </h3>
+                </div>
+            </div>
+            <div class="flex gap-2 items-center justify-between items-center bg-[var(--white)] p-4 rounded-md border-b-2 border-[var(--yellow)]">
+                <div>
+                    <h3 class="font-bold text-xs"> Admin </h3>
+                    <p class="font-bold text-xs"> admin@gmail.com </p>
+                </div>
+                <div class="cursor-pointer">
+                    <i data-feather="log-out"></i>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[var(--blue)] ml-65 py-5 px-5 w-full rounded-t-md min-h-screen">
+            <div class="flex gap-2 flex-col w-full container" id="dashboard">
+                <div class="flex gap-2 justify-center w-full">
+                    <div class="flex flex-col gap-2 bg-[var(--white)] py-2 px-5 rounded-md shadow-lg flex-1 items-start">
+                        <h2 class="montserrat font-bold text-base"> Total Mahasiswa/i </h2>
+                        <p class="font-bold text-3xl"> 5,432 </p>
+                    </div>
+                    <div class="flex flex-col gap-2 bg-[var(--white)] py-2 px-5 rounded-md shadow-lg flex-1 items-start">
+                        <h2 class="montserrat font-bold text-base"> Pendaftaran Baru </h2>
+                        <p class="font-bold text-3xl"> 432 </p>
+                    </div>
+                    <div class="flex flex-col gap-2 bg-[var(--white)] py-2 px-5 rounded-md shadow-lg flex-1 items-start">
+                        <h2 class="montserrat font-bold text-base"> Mata Kuliah Aktif </h2>
+                        <p class="font-bold text-3xl"> 432 </p>
+                    </div>
+                </div>
+                <div class="bg-[var(--white)] rounded-md py-2 px-2">
+                    <canvas id="chart" class="w-full h-fit"></canvas>
+                </div>
+            </div>
+            <div class="flex gap-2 flex-col w-full hidden container" id="students">
+                <div class="flex gap-2 bg-[var(--white)] items-center justify-between py-2 px-2 rounded-md w-full">
+                    <select name="semester" id="semester" class="border-2 border-[var(--yellow)] rounded-md py-2 px-2 flex-1">
+                        <option value=""> Semua Semester </option>
+                        <option value="1"> Semester 1 </option>
+                    </select>
+                    <select name="jurusan" id="jurusan" class="border-2 border-[var(--yellow)] rounded-md py-2 px-2 flex-1">
+                        <option value=""> Semua Jurusan </option>
+                        <option value="ti"> Teknologi Informasi </option>
+                    </select>
+                    <select name="agama" id="agama" class="border-2 border-[var(--yellow)] rounded-md py-2 px-2 flex-1">
+                        <option value=""> Semua Agama </option>
+                        <option value="kristen"> Kristen </option>
+                    </select>
+                    <select name="jenis_kelamin" id="jenis_kelamin" class="border-2 border-[var(--yellow)] rounded-md py-2 px-2 flex-1">
+                        <option value=""> Semua </option>
+                        <option value="pria"> Pria </option>
+                        <option value="wanita"> Wanita </option>
+                    </select>
+                </div>
+                <div class="bg-[var(--white)] rounded-md py-2 px-2 w-full min-h-screen">
+                    <table class="w-full overflow-hidden rounded-md">
+                        <thead class="montserrat font-normal text-sm">
+                            <tr class="border-b-2 border-[var(--yellow)] rounded-md bg-[var(--blue)] rounded-md">
+                                <th class="py-2 px-4 border-r-2 border-[var(--yellow)]"> No </th>
+                                <th class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Nama Lengkap </th>
+                                <th class="py-2 px-4 border-r-2 border-[var(--yellow)]"> NPM </th>
+                                <th class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Semester </th>
+                                <th class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Jurusan </th>
+                                <th class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Agama </th>
+                                <th class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Jenis Kelamin </th>
+                            </tr>
+                        </thead>
+                        <tbody class="font-normal text-sm">
+                            <tr class="hover:bg-[var(--yellow)] border-b-1 border-[var(--blue)] rounded-md shadow-lg text-center">
+                                <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> 1 </td>
+                                <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Anonymous </td>
+                                <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> 2514230326 </td>
+                                <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Semester 2 </td>
+                                <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Teknologi Informasi </td>
+                                <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Kristen </td>
+                                <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Pria </td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="font-medium text-sm border-b-2 border-[var(--yellow)]">
+                            <tr>
+                                <td class="py-2 px-4 text-center" colspan="7"> Total: 1 Mahasiswa/i </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+            <div class="bg-[var(--white)] rounded-md py-2 px-2 w-full min-h-screen hidden container" id="students-krs">
+                <h2 class="montserrat font-bold text-base mb-2"> Kartu Rencana Studi Mahasiswa/i </h2>
+                <table class="w-full overflow-hidden rounded-md">
+                    <thead class="montserrat font-normal text-sm">
+                        <tr class="border-b-2 border-[var(--yellow)] rounded-md bg-[var(--blue)] rounded-md">
+                            <th class="py-2 px-4 border-r-2 border-[var(--yellow)]  "> No </th>
+                            <th class="py-2 px-4 border-r-2 border-[var(--yellow)]  "> Nama Lengkap </th>
+                            <th class="py-2 px-4 border-r-2 border-[var(--yellow)]  "> Jurusan </th>
+                            <th class="py-2 px-4 border-r-2 border-[var(--yellow)]  "> Aksi </th>
+                        </tr>
+                    </thead>
+                    <tbody class="font-normal text-sm">
+                        <tr class="hover:bg-[var(--yellow)] border-b-1 border-[var(--blue)] rounded-md shadow-lg text-center">
+                            <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> 1 </td>
+                            <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Anonymous </td>
+                            <td class="py-2 px-4 border-r-2 border-[var(--yellow)]"> Teknologi Informasi </td>
+                            <td class="py-2 px-4 border-r-2 border-[var(--yellow)]">
+                                <div class="flex gap-2 items-center justify-center">
+                                    <button type="button" class="cursor-pointer btn-accept">
+                                        <i data-feather="check-circle"></i>
+                                    </button>
+                                    <button type="button" class="cursor-pointer btn-decline">
+                                        <i data-feather="x-circle"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+<script src="script.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    feather.replace();
+</script>
+</body>
+</html>
